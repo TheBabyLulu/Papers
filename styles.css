@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-left: 285px;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 5.5em;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 10px 0 0;
+    font-size: 0.9em;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.paper-list {
+    width: 250px;
+    padding: 20px;
+    background-color: #ffffffd8;
+    overflow-y: auto;
+}
+
+.paper-list h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 2em;
+    margin-top: 0;
+
+}
+
+.paper-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.paper-list li {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+    cursor: pointer;
+    color: #000000;
+}
+
+.paper-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 100%; /* Ensure it doesn't overflow the viewport */
+}
+
+#pdfViewer {
+    width: 100%;
+    height: auto;
+}
+
+.social-media {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#pdfViewerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
